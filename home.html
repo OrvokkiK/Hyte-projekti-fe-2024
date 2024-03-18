@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthTrackr - Home</title>
+  </head>
+  <body>
+    <nav class="navitems">
+    <ul>
+        <li class="navitem" id="logo">Healthtrackr</li>
+        <li class="navitem"><a>Home</a></li>
+        <li class="navitem"><a href="/user.html">User</a></li>
+        <li class="navitem"><button id="logout">Logout</button></li>
+        <li class="navitem" id="displayuser">Tervetuloa <span id="displayUsername"></span>!</li>
+      </ul>
+    </nav>
+  <div class="hero">
+  </div>
+  <div>
+    <h2>Diary entries</h2>
+    <form class="formDiary">
+      <label for="mood">Mood</label><br>
+      <input type="text" name="mood"><br>
+      <label for="weight">Weight (kg):</label><br>
+      <input type="number" name="weight"><br>
+      <label for="sleep_hours">Sleep (hours):</label><br>
+      <input type="number" name="sleep_hours"><br>
+      <label for="notes">Notes: </label><br>
+      <input type="text" name="notes"><br>
+      <input type="submit" value="Save" id="postDiaryBtn">
+    </form>
+    <button class="getbuttons" id="getdiary">Get diary entries</button>
+    <div class="gendiaryentries">
+    </div>
+  </div>
+
+    <script type="module" src="home.js"></script>
+  </body>
+</html>

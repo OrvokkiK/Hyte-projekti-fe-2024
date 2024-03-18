@@ -1,0 +1,169 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2492f3;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  transition: padding 1s;
+}
+
+li a:hover {
+  background-color: #5bacf3;
+  padding: 16px 20px;
+}
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  z-index: 3;
+}
+
+#logout {
+  background-color: #2492f3; 
+  border: none;
+  padding: 1px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  float: right;
+}
+
+#logo, #displayuser {
+  padding: 16px;
+  color: white;
+}
+
+.login-form, .signup-form {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+}
+
+input[type=submit] {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin-top: 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c9c9c9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+.hero {
+  background-color: white;
+  background-image: url('/Man-running.jpg');
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.login-area {
+  background-color: #2492f3;
+  background-image: url('/Man-running.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+form {
+  background-color: #5bacf3;
+  display: block;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin-top: 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c9c9c9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+table {
+  display: block;
+  background-color: #5bacf3;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.diaryentries{
+  width: 70%;
+}
+
+.datatd {
+  background-color: white;
+}
+
+.userstable {
+  width: 32%;
+}
+
+.userstable tbody {
+  margin: auto;
+}
+
+.nodata {
+  display: block;
+  width: 120px;
+  padding: 20px;
+  margin: auto;
+}
